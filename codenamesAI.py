@@ -1,6 +1,5 @@
 import re
 import nltk
-import gensim
 import numpy as np
 from nltk.corpus import wordnet, stopwords, words
 from nltk.stem import WordNetLemmatizer
