@@ -100,7 +100,6 @@ class SpyMasterAI:
     self.czn_words = np.setdiff1d(self.czn_words, deleted_words)
     self.choose_side(self.ally_label)
 
-
   def best_combination(self):
     self.choose_side(self.ally_label)
     self.all_math_combination()
